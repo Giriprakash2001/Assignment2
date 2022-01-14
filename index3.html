@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+th {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ font-size:50px
+}
+
+.button3 {
+  background-color: white; 
+  color: green; 
+  border: 2px solid #4CAF50;
+}
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>GIRIPRAKASH</h1>
+    <h1>CSE</h1>
+  </div>
+  <h1>JQUERY MOBILE TABLES</h1>
+  <div data-role="main" class="ui-content">
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable">
+      <thead>
+        <tr>
+          <th data-priority="6">CustomerID</th>
+          <th>CustomerName</th>
+          <th data-priority="2">ContactName</th>
+          <th data-priority="3">Address</th>
+          <th data-priority="1">City</th>
+          <th data-priority="4">PostalCode</th>
+          <th data-priority="5">Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>GIRIPRAKASH</td>
+          <td>GIRIPRAKASH P</td>
+          <td>Pandiyan street</td>
+          <td>Erode</td>
+          <td>63859</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Elavarason</td>
+          <td>Elavarsee</td>
+          <td>fire station</td>
+          <td>Chengapalli</td>
+          <td>63859</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Aakash</td>
+          <td>Cena</td>
+          <td>college stop</td>
+          <td>Tirchy</td>
+          <td>63859</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jegan</td>
+          <td>jaishr***</td>
+          <td>Tirpur busstand</td>
+          <td>Tirpur</td>
+          <td>63859</td>
+          <td>India</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Dineshkumar</td>
+            <td>DK Dhrampurai</td>
+            <td>police station</td>
+            <td>Namakal</td>
+            <td>63859</td>
+            <td>India</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>parthiban</td>
+            <td>Anna parthi</td>
+            <td>nall road postoffice</td>
+            <td>Tirpur</td>
+            <td>63859</td>
+            <td>India</td>
+          </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div data-role="footer">
+    <h1>TABLES</h1>
+  </div>
+
+  <div>
+      <div>
+        <button style="color: red;" class="button button3" onclick=" window.open (document.location='index2.html')" target="_blank">BACK</button>
+
+      </div>
+  </div>
+</div> 
+
+</body>
+</html>
